@@ -12,8 +12,9 @@ def logo():
     print("\033[0m")  # Renk sıfırlama
 
 def menu():
+    print("\033[1;33mVersaTech İnsta: veraildezz Site: versatech.com.tr\033[1m")
     """Kullanıcıya seçenekleri sunar."""
-    print("\033[1;34m")  # Mavi renkte yazı
+    print("\033[1;34m")  
     print("Lütfen bir APK seçeneği belirleyin:")
     print("\033[0m")  # Renk sıfırlama
     print("\033[1;33m")  # Sarı renkte yazı
@@ -25,7 +26,7 @@ def menu():
 
 def apk_indir(secim):
     """APK dosyasını belirlenen dizine indirir."""
-    apk_klasoru = "apk_dosyalar"  # APK dosyalarının bulunduğu klasör
+    apk_klasoru = "apks"  # APK dosyalarının bulunduğu klasör
     hedef_klasor = "/storage/emulated/0/VersaTech"  # İndirilen dosyaların hedefi
 
     apk_dosyasi = {
