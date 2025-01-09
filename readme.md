@@ -1,0 +1,1 @@
+termux üzerinden kurunuz
