@@ -30,8 +30,8 @@ def apk_indir(secim):
     hedef_klasor = "/storage/emulated/0/VersaTech"  # İndirilen dosyaların hedefi
 
     apk_dosyasi = {
-        1: "apks/FnafPhp.apk",
-        2: "apks/ErolSigmaNigga.apk",
+        1: "FnafPhp.apk",
+        2: "ErolSigmaNigga.apk",
     }.get(secim, None)
 
     if apk_dosyasi:
